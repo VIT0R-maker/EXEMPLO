@@ -1,0 +1,127 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#09080d">
+  <meta name="description" content="Portfólio de Igor Cintra. Desenvolvimento web, interfaces e experiências digitais. Conheça minha trajetória, meu projeto QuizMercedes e entre em contato.">
+  <title>Igor Cintra — Desenvolvimento web</title>
+  <link rel="icon" type="image/svg+xml" href="images/favicon.svg">
+  <link rel="preload" href="fonts/poppins-700.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="preload" href="fonts/poppins-800.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="preload" href="fonts/inter-latin-variable.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="stylesheet" href="style.css">
+  <script type="module" src="script.js"></script>
+</head>
+<body>
+  <a class="skip-link" href="#conteudo">Pular para o conteúdo</a>
+  <header class="site-header container">
+    <a class="signature" href="#inicio" aria-label="Igor Cintra, início">Igor Cintra<span class="accent">.</span></a>
+    <button class="menu-toggle" type="button" aria-controls="primary-nav" aria-expanded="false" aria-label="Abrir menu de navegação"><span></span><span></span><span></span></button>
+    <nav id="primary-nav" aria-label="Navegação principal">
+      <a class="nav-link" href="#inicio" aria-current="page">Início</a>
+      <a class="nav-link" href="#sobre">Sobre</a>
+      <a class="nav-link" href="#projetos">Projetos</a>
+      <a class="nav-link" href="#contato">Contato</a>
+      <a class="button button-primary nav-cta" href="#contato">Vamos conversar <svg class="icon" aria-hidden="true"><use href="images/icons.svg#arrow-up-right"/></svg></a>
+    </nav>
+  </header>
+  <main id="conteudo">
+    <section id="inicio" class="hero" aria-labelledby="hero-title">
+      <div class="container hero-inner">
+        <div class="hero-copy">
+          <p class="hello" data-hero-reveal>Olá, eu sou</p>
+          <h1 id="hero-title" data-hero-reveal>Igor Cintra</h1>
+          <p class="hero-tagline" data-hero-reveal>Desenvolvimento web.<br>Foco na <span class="accent">experiência.</span></p>
+          <p class="hero-description" data-hero-reveal>Sou estudante de Engenharia de Software, com formação técnica em Desenvolvimento de Sistemas. Busco transformar conhecimento em soluções digitais claras e funcionais.</p>
+          <div class="hero-actions" data-hero-reveal>
+            <a class="button button-primary" href="#projetos">Ver projeto <svg class="icon" aria-hidden="true"><use href="images/icons.svg#arrow-up-right"/></svg></a>
+            <a class="button button-outline" href="docs/Curriculum-Igor-Cintra.pdf" download="Curriculum-Igor-Cintra.pdf">Baixar currículo <svg class="icon" aria-hidden="true"><use href="images/icons.svg#download"/></svg></a>
+          </div>
+          <div class="hero-details" data-hero-reveal>
+            <p class="location"><svg class="icon" aria-hidden="true"><use href="images/icons.svg#map-pin"/></svg>Franca, SP — Brasil</p>
+            <p class="availability"><span></span>Aberto a projetos e oportunidades</p>
+          </div>
+        </div>
+        <div class="hero-portrait" data-hero-reveal>
+          <img src="images/foto.png" alt="Igor Cintra, de terno preto e gravata azul" width="1270" height="1239" fetchpriority="high">
+        </div>
+      </div>
+    </section>
+
+    <section id="sobre" class="about section" aria-labelledby="about-title">
+      <div class="container">
+        <div class="section-heading" data-reveal>
+          <p class="eyebrow">Trajetória &amp; habilidades</p>
+          <h2 id="about-title">Sobre mim</h2>
+        </div>
+        <div class="about-grid">
+          <div class="about-portrait panel" data-reveal><img src="images/foto2.png" alt="Retrato de Igor Cintra" width="1023" height="1537" loading="lazy"></div>
+          <div class="about-content" data-reveal>
+            <h3>Aprender, construir e evoluir.</h3>
+            <p>Sou técnico em Desenvolvimento de Sistemas pela ETEC Doutor Júlio Cardoso e curso Engenharia de Software. Tenho interesse em desenvolvimento web e na criação de interfaces claras e fáceis de usar.</p>
+            <p>Organização, comunicação e trabalho em equipe fazem parte da minha trajetória. Busco oportunidades para aplicar meus conhecimentos, aprender com novos desafios e crescer profissionalmente.</p>
+            <div class="education-grid">
+              <article class="education-card panel">
+                <svg class="icon" aria-hidden="true"><use href="images/icons.svg#graduation"/></svg>
+                <h4>Técnico em Desenvolvimento<br class="desktop-break"> de Sistemas</h4>
+                <p>ETEC Doutor Júlio Cardoso</p><p>2022–2024</p>
+              </article>
+              <article class="education-card panel">
+                <svg class="icon" aria-hidden="true"><use href="images/icons.svg#graduation"/></svg>
+                <h4>Engenharia de Software</h4><p>Graduação em andamento</p>
+              </article>
+            </div>
+          </div>
+        </div>
+        <div class="skills-grid">
+          <article class="skill-card panel" data-reveal><svg class="icon" aria-hidden="true"><use href="images/icons.svg#code-window"/></svg><div><h3>Desenvolvimento web</h3><p>Construção de páginas e funcionalidades com HTML, CSS e JavaScript.</p></div></article>
+          <article class="skill-card panel" data-reveal><svg class="icon" aria-hidden="true"><use href="images/icons.svg#layout"/></svg><div><h3>Interfaces e UX/UI</h3><p>Interesse em hierarquia visual, navegação e experiências fáceis de usar.</p></div></article>
+          <article class="skill-card panel" data-reveal><svg class="icon" aria-hidden="true"><use href="images/icons.svg#users"/></svg><div><h3>Aprendizado contínuo</h3><p>Dedicação para aprender, resolver problemas e colaborar em equipe.</p></div></article>
+        </div>
+        <div class="technologies" data-reveal><h3>Tecnologias e ferramentas</h3><ul class="tags" aria-label="Tecnologias e ferramentas"><li>HTML</li><li>CSS</li><li>JavaScript</li><li>React</li><li>Python</li><li>GitHub</li></ul></div>
+      </div>
+    </section>
+
+    <section id="projetos" class="projects section" aria-labelledby="projects-title">
+      <div class="container">
+        <div class="section-heading" data-reveal><p class="eyebrow">Portfólio</p><h2 id="projects-title">Conhecimento colocado em prática<span class="accent">.</span></h2><p class="section-description">Um projeto para explorar desenvolvimento web e interação.</p></div>
+        <article class="project-card panel" data-reveal>
+          <div class="project-preview"><img src="images/QuizMercedes.png" width="1919" height="940" loading="lazy" alt="Prévia do QuizMercedes: pergunta sobre o ano de estreia da equipe Mercedes, com quatro alternativas"></div>
+          <div class="project-copy"><p class="eyebrow">Projeto em destaque</p><h3>QuizMercedes</h3><p class="project-description">Quiz interativo sobre a história da equipe Mercedes na Fórmula 1, desenvolvido com HTML, CSS e JavaScript.</p><ul class="tags" aria-label="Tecnologias do QuizMercedes"><li>HTML</li><li>CSS</li><li>JavaScript</li></ul><a class="button button-primary" href="https://igorcintra.github.io/QuizMercedes/" target="_blank" rel="noopener noreferrer">Acessar projeto <svg class="icon" aria-hidden="true"><use href="images/icons.svg#arrow-up-right"/></svg></a><a class="github-link" href="https://github.com/IgorCintra" target="_blank" rel="noopener noreferrer"><svg class="icon" aria-hidden="true"><use href="images/icons.svg#github"/></svg>Conhecer meu GitHub</a></div>
+        </article>
+        <div class="next-projects panel" data-reveal><svg class="icon" aria-hidden="true"><use href="images/icons.svg#code-window"/></svg><div><h3>Novos projetos em desenvolvimento</h3><p>Acompanhe meus estudos e próximas criações no GitHub.</p></div><a class="button button-outline" href="https://github.com/IgorCintra" target="_blank" rel="noopener noreferrer">Acompanhar no GitHub <svg class="icon" aria-hidden="true"><use href="images/icons.svg#arrow-up-right"/></svg></a></div>
+      </div>
+    </section>
+
+    <section id="contato" class="contact section" aria-labelledby="contact-title">
+      <div class="container">
+        <div class="section-heading" data-reveal><p class="eyebrow">Contato</p><h2 id="contact-title">Vamos construir algo juntos?<span class="accent">.</span></h2><p class="section-description">Entre em contato para conversar sobre projetos e oportunidades profissionais.</p></div>
+        <div class="contact-grid">
+          <div class="contact-details" data-reveal><h3>Vamos conversar</h3>
+            <a class="contact-method" href="mailto:igorcg2310@hotmail.com"><span class="contact-icon"><svg class="icon" aria-hidden="true"><use href="images/icons.svg#mail"/></svg></span><span><span class="contact-label">E-mail</span><span class="contact-value">igorcg2310@hotmail.com</span></span></a>
+            <a class="contact-method" href="tel:+5516991578847"><span class="contact-icon"><svg class="icon" aria-hidden="true"><use href="images/icons.svg#phone"/></svg></span><span><span class="contact-label">Telefone</span><span class="contact-value">+55 16 99157-8847</span></span></a>
+            <div class="contact-location panel"><svg class="icon" aria-hidden="true"><use href="images/icons.svg#map-pin"/></svg><div><strong>Franca, SP</strong><p>Brasil</p></div></div>
+            <a class="social-link" href="https://github.com/IgorCintra" target="_blank" rel="noopener noreferrer"><svg class="icon" aria-hidden="true"><use href="images/icons.svg#github"/></svg>GitHub<svg class="icon arrow" aria-hidden="true"><use href="images/icons.svg#arrow-right"/></svg></a>
+            <a class="social-link" href="https://www.linkedin.com/in/igor-cintra-585557345/" target="_blank" rel="noopener noreferrer"><svg class="icon" aria-hidden="true"><use href="images/icons.svg#linkedin"/></svg>LinkedIn<svg class="icon arrow" aria-hidden="true"><use href="images/icons.svg#arrow-right"/></svg></a>
+          </div>
+          <div class="contact-form-panel panel" data-reveal><h3>Envie uma mensagem</h3>
+            <form id="contact-form" action="mailto:igorcg2310@hotmail.com" method="post" enctype="text/plain" aria-describedby="form-note">
+              <div class="form-row">
+                <div class="field"><label for="name">Nome</label><input id="name" name="name" placeholder="Seu nome" autocomplete="name" required maxlength="120" aria-describedby="name-error"><span class="field-error" id="name-error"></span></div>
+                <div class="field"><label for="email">E-mail</label><input id="email" name="email" type="email" placeholder="voce@exemplo.com" autocomplete="email" required maxlength="254" aria-describedby="email-error"><span class="field-error" id="email-error"></span></div>
+              </div>
+              <div class="field"><label for="subject">Assunto</label><input id="subject" name="subject" placeholder="Projeto, oportunidade ou outra conversa" maxlength="180"></div>
+              <div class="field"><label for="message">Mensagem</label><textarea id="message" name="message" placeholder="Conte um pouco sobre o que você tem em mente." required maxlength="5000" rows="4" aria-describedby="message-error"></textarea><span class="field-error" id="message-error"></span></div>
+              <button class="button button-primary send-button" type="submit">Enviar mensagem <svg class="icon" aria-hidden="true"><use href="images/icons.svg#arrow-right"/></svg></button>
+              <p id="form-note">O envio será concluído no seu aplicativo de e-mail.</p>
+              <p id="form-status" role="status" aria-live="polite"></p>
+            </form>
+          </div>
+        </div>
+        <footer class="site-footer"><div class="footer-identity"><img src="images/foto3.png" width="1254" height="1254" loading="lazy" alt=""><div><p class="footer-name">Igor Cintra</p><p>Desenvolvimento web</p></div></div><a href="#inicio" class="back-to-top"><svg class="icon" aria-hidden="true"><use href="images/icons.svg#arrow-up-right"/></svg>Voltar ao início</a><p class="copyright">© 2026 Igor Cintra. Todos os direitos reservados.</p></footer>
+      </div>
+    </section>
+  </main>
+</body>
+</html>

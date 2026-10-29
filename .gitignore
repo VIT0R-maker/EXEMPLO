@@ -1,0 +1,11 @@
+node_modules/
+dist/
+.qa/
+*.log
+.env
+.env.*
+# Imagens de referência fornecidas para a comparação local.
+/1.jpeg
+/2.jpeg
+/3.jpeg
+/4.jpeg

@@ -1,0 +1,8 @@
+{
+  "name": "igor-cintra-portfolio",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "Portfólio estático de Igor Cintra",
+  "scripts": { "dev": "node scripts/serve.mjs", "start": "node scripts/serve.mjs", "check": "node --check script.js && node --check contact.js && node --check scripts/serve.mjs" }
+}
